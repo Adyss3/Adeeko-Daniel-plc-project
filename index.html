@@ -17,25 +17,35 @@
             font-family: "gilroy",sans-serif;
         }
         section{
-            padding: 50px 30px;
+            padding: 10px 30px;
         }
 
         .bgimage{
             background-image: url(/BG.png);
             background-size: cover;
+            padding-bottom: 190px;
         }
 
         .first-card-section{
-            border-bottom: 2px solid #E7E9ED;
+            border-bottom: 1px solid #E7E9ED;
+        }
+        .curved{
+            border-bottom-right-radius: 10px !important;
+            border-bottom-left-radius: 10px !important;
+        }
+
+        .btn-dan{
+            background-color:  #473BF0;
+            color: white;
         }
     </style>
 </head>
 <body>
 
     <!-- navbar and intro section  -->
-<section class="bgimage">
+<section class="bgimage ">
     <!-- navbar -->
-    <nav class="navbar  navbar-expand-md  navbar-light  ">
+    <nav class="navbar  navbar-expand-md  navbar-dark   ">
         <div class="container-xxl ">
             <a href="#intro" class="navbar-brand">
                 <span class="fw-bold text-light ms-2 ">Brainwave.io</span>
@@ -58,11 +68,8 @@
                         <li class="nav-item">
                             <a class="nav-link  text-light" href="#">contact</a>
                         </li>
-                        <li class="nav-item  ">
-                            <a href="#" class="nav-link text-light d-md-none "> Get started now</a>
-                        </li>
                     </ul>
-                    <a href="" class="btn btn-primary">Get started now</a>
+                    <a href="" class="btn btn-dan d-sm-none d-md-block ">Get started now</a>
             </div>
         </div>
     </nav>
@@ -72,14 +79,13 @@
     <section id="intro" class="intro">
         <div class="container-lg ">
             <div class="row justify-content-start ms-5 ">
-                <div class="col-md-5">
+                <div class="col-md-5 text-center ">
                     <h1 class="text-white pt-5 fw-bold  ">
                         Get help from the expert consultants.
                     </h1>
-                    <p class="text-secondary   lead  fw-lighter  py-3  ">With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes.
+                    <p class="text-secondary      fw-lighter    py-3  text-center">With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes.
                     </p>
-                    <a href="#" class="text-decoration-none btn btn-primary p-2  ">Get started now<i class='bx bx-right-arrow-alt bx-fw ms-4 mt-2  '></i></a>
-                
+                    <a href="#" class="text-decoration-none btn btn-dan p-2  ">Get started now<i class='bx bx-right-arrow-alt bx-fw ms-4 mt-2  text-center '></i></a>
                 </div>
             </div>
         </div>
@@ -92,21 +98,21 @@
 
     <!-- first card section -->
 <section class="first-card-section">
-    <div class="container">
-        <div class="row justify-content-evenly  gap-5 ">
-            <div class="col-md-3 d-flex gap-4">
+    <div class="container-lg ">
+        <div class="row justify-content-evenly  gap-5  ">
+            <div class="col-md-3 d-md-flex gap-4 text-center">
                 <h1 class="text-black fw-bold">
                     1M+
                 </h1>
                 <p class="text-secondary fw-light ">Customers visit Albino every months</p>
             </div>
-            <div class="col-md-3 d-flex gap-4">
+            <div class="col-md-3 d-md-flex gap-4 text-center">
                 <h1 class="text-black fw-bold">
                     93%
                 </h1>
                 <p class="text-secondary fw-light ">Satisfaction rate from our customers.</p>
             </div>
-            <div class="col-md-3 d-flex gap-4">
+            <div class="col-md-3 d-md-flex gap-4 text-center">
                 <h1 class="text-black fw-bold">
                     4.9
                 </h1>
@@ -118,7 +124,48 @@
 
 
     <!-- second card section  -->
-        
+
+<section>
+    <div class="container-lg ">
+        <div class="display-6  text-center fw-bold  ">Services we offer for you</div>
+        <p class="text-muted text-center px-5 py-2 w-10  ">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
+        <div class="row text-center ">
+            <div class="col-md-3 my-5">
+                <div class="shadow curved">
+                    <img src="/second bg.png" width="100%">
+                    <div class="card-body py-3">
+                        <a href="#" class="text-decoration-none text-dark ">Digital Marketing<i class='bx bx-right-arrow-alt bx-fw ms-5 mt-2  text-center '></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 my-5">
+                <div class="shadow curved " >
+                    <img src="/third bg.png " width="100%" >
+                    <div class="card-body py-3 ">
+                        <a href="#" class="text-decoration-none text-dark ">Content Writing<i class='bx bx-right-arrow-alt bx-fw ms-5 mt-2  text-center '></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 my-5  ">
+                <div class="shadow curved" >
+                    <img src="/fourth bg.png" width="100%" >
+                    <div class="card-body  py-3">
+                        <a href="#" class="text-decoration-none text-dark ">Graphic Design<i class='bx bx-right-arrow-alt bx-fw ms-5 mt-2  text-center '></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 my-5">
+                <div class="shadow curved" >
+                    <img src="/fifth bg.png" width="100%" >
+                    <div class="card-body  py-3">
+                        <a href="#" class="text-decoration-none text-dark ">SEO For Business<i class='bx bx-right-arrow-alt bx-fw ms-5 mt-2  text-center '></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
     
     
 
