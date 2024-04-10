@@ -37,6 +37,70 @@
         .btn-dan{
             background-color:  #473BF0;
             color: white;
+            font-size: 17px;
+        }
+
+        .big{
+            font-size: 48px !important;
+            line-height: 58px !important;
+        }
+
+        .small{
+            font-size: 17px !important;
+            line-height: 29px !important;
+        }
+
+        .bigger{
+            font-size: 60px !important;
+            line-height: 65px;
+            width: 100%;
+        }
+        .smaller{
+            width: 70%;
+            color:  rgba(255, 255, 255, 1);
+            font-size: 17px !important;
+            opacity: 30%;
+        }
+        
+        .biglogo{
+            font-size: 28px !important;
+            line-height: 28px !important;
+        }
+
+        .listing{
+            font-size: 15px !important;
+            line-height: 26px !important;
+        }
+
+        .dan-p{
+            width: 50%;
+            margin: auto;
+            font-size: 19px;
+            line-height: 32px;
+        }
+        
+        .dan-display{
+            font-size: 36px;
+            line-height: 48px;
+        }
+
+        .dan-b{
+            font-size: 17px;
+            line-height: 29px;
+        }
+        
+        .bg-now{
+            background-color: rgba(244, 247, 250, 1);
+        }
+        
+        .bg-hit{
+            font-size: 36px;
+            line-height: 48px;
+        }
+
+        .bg-hitman{
+            width: 50%;
+            margin: auto;
         }
     </style>
 </head>
@@ -48,14 +112,14 @@
     <nav class="navbar  navbar-expand-md  navbar-dark   ">
         <div class="container-xxl ">
             <a href="#intro" class="navbar-brand">
-                <span class="fw-bold text-light ms-2 ">Brainwave.io</span>
+                <span class="fw-bold text-light ms-2 biglogo">Brainwave.io</span>
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse align-items-center justify-content-between " id="main-nav" >
-                    <ul class="navbar-nav ">
+                    <ul class="navbar-nav  listing ">
                         <li class="nav-item">
                             <a class="nav-link  text-light" href="#">Demos</a>
                         </li>
@@ -78,14 +142,14 @@
     <!-- intro section  -->
     <section id="intro" class="intro">
         <div class="container-lg ">
-            <div class="row justify-content-start ms-5 ">
-                <div class="col-md-5 text-center ">
-                    <h1 class="text-white pt-5 fw-bold  ">
+            <div class="row justify-content-start ms-5  ">
+                <div class="col-md-7 text-start pt-5 ms-5 ">
+                    <h1 class="text-white text-start  pt-5  fw-bold  bigger">
                         Get help from the expert consultants.
                     </h1>
-                    <p class="text-secondary      fw-lighter    py-3  text-center">With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes.
+                    <p class="text-secondar fw-lighter      py-3  text-start  smaller">With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes.
                     </p>
-                    <a href="#" class="text-decoration-none btn btn-dan p-2  ">Get started now<i class='bx bx-right-arrow-alt bx-fw ms-4 mt-2  text-center '></i></a>
+                    <a href="#" class="text-decoration-none btn btn-dan text-start  p-2  ">Get started now<i class='bx bx-right-arrow-alt bx-fw ms-4 mt-2  text-start  '></i></a>
                 </div>
             </div>
         </div>
@@ -99,24 +163,24 @@
     <!-- first card section -->
 <section class="first-card-section">
     <div class="container-lg ">
-        <div class="row justify-content-evenly  gap-5  ">
+        <div class="row justify-content-evenly   gap-5 space  ">
             <div class="col-md-3 d-md-flex gap-4 text-center">
-                <h1 class="text-black fw-bold">
+                <h1 class="text-black fw-bold big">
                     1M+
                 </h1>
-                <p class="text-secondary fw-light ">Customers visit Albino every months</p>
+                <p class="text-secondary fw-light small ">Customers visit Albino every months</p>
             </div>
             <div class="col-md-3 d-md-flex gap-4 text-center">
-                <h1 class="text-black fw-bold">
+                <h1 class="text-black fw-bold big">
                     93%
                 </h1>
-                <p class="text-secondary fw-light ">Satisfaction rate from our customers.</p>
+                <p class="text-secondary fw-light small ">Satisfaction rate from our customers.</p>
             </div>
             <div class="col-md-3 d-md-flex gap-4 text-center">
-                <h1 class="text-black fw-bold">
+                <h1 class="text-black fw-bold big">
                     4.9
                 </h1>
-                <p class="text-secondary fw-light ">Average customer ratings out of 5.00!</p>
+                <p class="text-secondary fw-light small ">Average customer ratings out of 5.00!</p>
             </div>
         </div>
     </div>
@@ -126,15 +190,15 @@
     <!-- second card section  -->
 
 <section>
-    <div class="container-lg ">
-        <div class="display-6  text-center fw-bold  ">Services we offer for you</div>
-        <p class="text-muted text-center px-5 py-2 w-10  ">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
+    <div class="container-lg text-center  ">
+        <div class="display-6  text-center fw-bold pt-5 pb-4 dan-display">Services we offer for you</div>
+        <p class="text-muted  dan-p    ">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
         <div class="row text-center ">
             <div class="col-md-3 my-5">
                 <div class="shadow curved">
                     <img src="/second bg.png" width="100%">
                     <div class="card-body py-3">
-                        <a href="#" class="text-decoration-none text-dark ">Digital Marketing<i class='bx bx-right-arrow-alt bx-fw ms-5 mt-2  text-center '></i></a>
+                        <a href="#" class="text-decoration-none text-dark dan-b ">Digital Marketing<i class='bx bx-right-arrow-alt bx-fw ms-5 mt-2  text-center '></i></a>
                     </div>
                 </div>
             </div>
@@ -142,7 +206,7 @@
                 <div class="shadow curved " >
                     <img src="/third bg.png " width="100%" >
                     <div class="card-body py-3 ">
-                        <a href="#" class="text-decoration-none text-dark ">Content Writing<i class='bx bx-right-arrow-alt bx-fw ms-5 mt-2  text-center '></i></a>
+                        <a href="#" class="text-decoration-none text-dark dan-b ">Content Writing<i class='bx bx-right-arrow-alt bx-fw ms-5 mt-2  text-center '></i></a>
                     </div>
                 </div>
             </div>
@@ -150,7 +214,7 @@
                 <div class="shadow curved" >
                     <img src="/fourth bg.png" width="100%" >
                     <div class="card-body  py-3">
-                        <a href="#" class="text-decoration-none text-dark ">Graphic Design<i class='bx bx-right-arrow-alt bx-fw ms-5 mt-2  text-center '></i></a>
+                        <a href="#" class="text-decoration-none text-dark dan-b ">Graphic Design<i class='bx bx-right-arrow-alt bx-fw ms-5 mt-2  text-center '></i></a>
                     </div>
                 </div>
             </div>
@@ -158,11 +222,26 @@
                 <div class="shadow curved" >
                     <img src="/fifth bg.png" width="100%" >
                     <div class="card-body  py-3">
-                        <a href="#" class="text-decoration-none text-dark ">SEO For Business<i class='bx bx-right-arrow-alt bx-fw ms-5 mt-2  text-center '></i></a>
+                        <a href="#" class="text-decoration-none text-dark dan-b">SEO For Business<i class='bx bx-right-arrow-alt bx-fw ms-5 mt-2  text-center '></i></a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+<!-- 3rd section  -->
+<section>
+    <div class="container-xxl  bg-now   ">
+        <div class="display-6 text-center bg-hit pt-5 ">Why you should choose us?</div>
+        <p class="lead fw-light text-center pt-3 bg-hitman ">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/Video.png" alt="" class="">
+            </div>
+        </div>
+
     </div>
 </section>
 
