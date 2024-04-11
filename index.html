@@ -53,10 +53,10 @@
         .bigger{
             font-size: 60px !important;
             line-height: 65px;
-            width: 100%;
+            width: 60%;
         }
         .smaller{
-            width: 70%;
+            width: 43%;
             color:  rgba(255, 255, 255, 1);
             font-size: 17px !important;
             opacity: 30%;
@@ -70,6 +70,9 @@
         .listing{
             font-size: 15px !important;
             line-height: 26px !important;
+        }
+
+        .dan-top{
         }
 
         .dan-p{
@@ -102,6 +105,73 @@
             width: 50%;
             margin: auto;
         }
+
+        @media screen and (max-width:764px) {
+            
+            .bgimage{
+            background-image: url(/BG.png);
+            background-size: cover;
+            padding-bottom: 100px;
+        }
+
+        .listing{
+            font-size: 15px !important;
+            line-height: 20px !important;
+        }
+
+        .biglogo{
+            font-size: 22px !important;
+            line-height: 24px !important;
+        }
+
+        .bigger{
+            font-size: 40px !important;
+            line-height: 35px;
+            width: 90%;
+        }
+
+        .smaller{
+            width: 70%;
+            color:  rgba(255, 255, 255, 1);
+            font-size: 14px !important;
+            opacity: 40%;
+        }
+
+        .btn-dan{
+            background-color:  #473BF0;
+            color: white;
+            font-size: 15px;
+        }
+
+
+        .big{
+            font-size: 38px !important;
+            line-height: 48px !important;
+        }
+
+        .small{
+            font-size: 15px !important;
+            line-height: 25px !important;
+        }
+
+        .dan-p{
+            width: 100%;
+            margin: auto;
+            font-size: 15px;
+            line-height: 26px;
+        }
+        
+        .dan-display{
+            font-size: 26px;
+            line-height: 38px;
+        }
+
+        .dan-b{
+            font-size: 15px;
+            line-height: 26px;
+        }
+
+        }
     </style>
 </head>
 <body>
@@ -133,7 +203,7 @@
                             <a class="nav-link  text-light" href="#">contact</a>
                         </li>
                     </ul>
-                    <a href="" class="btn btn-dan d-sm-none d-md-block ">Get started now</a>
+                    <a href="" class="btn btn-dan d-none d-md-block  ">Get started now</a>
             </div>
         </div>
     </nav>
@@ -143,7 +213,7 @@
     <section id="intro" class="intro">
         <div class="container-lg ">
             <div class="row justify-content-start ms-5  ">
-                <div class="col-md-7 text-start pt-5 ms-5 ">
+                <div class="col-md-12 text-md-start    dan-top ">
                     <h1 class="text-white text-start  pt-5  fw-bold  bigger">
                         Get help from the expert consultants.
                     </h1>
@@ -232,14 +302,12 @@
 
 <!-- 3rd section  -->
 <section>
-    <div class="container-xxl  bg-now   ">
+    <div class="container-fluid   bg-now   ">
         <div class="display-6 text-center bg-hit pt-5 ">Why you should choose us?</div>
         <p class="lead fw-light text-center pt-3 bg-hitman ">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
         
         <div class="row">
-            <div class="col-md-6">
-                <img src="/Video.png" alt="" class="">
-            </div>
+            <div class="col-md-6">            </div>
         </div>
 
     </div>
