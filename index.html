@@ -244,8 +244,35 @@
         }
 
         .s-row{
-            border-bottom: 2px solid #e7e9ed;
             padding-bottom: 70px;
+            font-size: 17px;
+            line-height: 40px;
+        }
+
+        .s-fade{
+            color:  rgba(22, 28, 45, 1);
+            opacity: 70%;
+
+        }
+
+        .s-faded{
+            color: rgba(22, 28, 45, 1);
+        }
+
+        .s-btn{
+            color: rgba(71, 59, 240, 1) !important;
+
+        }
+
+        .foot-border{
+            border-top:  1px solid rgba(231, 233, 237, 1) ;
+        }
+
+        .foot-flex{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 30px;
+            width: 100%;
         }
 
 
@@ -276,11 +303,11 @@
         .bigger{
             font-size: 40px !important;
             line-height: 35px;
-            width: 90%;
+            width: 100%;
         }
 
         .smaller{
-            width: 50%;
+            width: 100%;
             color:  rgba(255, 255, 255, 1);
             font-size: 14px !important;
             opacity: 40%;
@@ -321,8 +348,8 @@
         }
 
         .bgimage{
-            background-position:left top;
-            background-repeat: no-repeat;
+            background-position: center;
+            padding: 10px;
         }
 
         .bg-hit{
@@ -395,6 +422,20 @@
         .f-input{
             margin-bottom: 10px;
         }
+
+        .foot-flex{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 30px;
+            width: 100%;
+        }
+
+        .foot-p{
+            font-size: 8px;
+            color:  rgba(22, 28, 45, 1);
+            opacity: 70%;
+        }
+
 
         
         
@@ -672,10 +713,10 @@
             <div class="col-md-6">
                 <div class="row">
                     <div class="col f-input">
-                      <input type="email" class="form-control-lg " placeholder="Enter your email" aria-label="First name">
+                    <input type="email" class="form-control-lg " placeholder="Enter your email" aria-label="First name">
                     </div>
                     <div class="col">
-                      <a href="" class="btn f-btn btn-lg">Subscribe<i class='bx bx-right-arrow-alt bx-fw ms-4 mt-2  text-start  '></i></a>
+                    <a href="" class="btn f-btn btn-lg">Subscribe<i class='bx bx-right-arrow-alt bx-fw ms-4 mt-2  text-start  '></i></a>
                     </div>
                   </div>
             </div>
@@ -686,47 +727,47 @@
 <section>
     <div class="container">
         <div class="row s-row">
-            <div class="col-md text-left ">
+            <div class="col text-left ">
                 <div>
-                    <div class=" py-5  ">Company</div>
-                    <div class=" ">Company</div>
-                    <div class=" ">Company</div>
-                    <div class=" ">Company</div>
-                    <div class=" ">Company</div>
+                    <div class=" py-5 s-fade ">Company</div>
+                    <div class=" s-faded">About us</div>
+                    <div class=" s-faded">Contact us</div>
+                    <div class=" s-faded">Careers</div>
+                    <div class=" s-faded">Press</div>
                 </div>
             </div>
-            <div class="col-md text-left ">
+            <div class="col text-left ">
                 <div>
-                    <div class=" py-5  ">Product</div>
-                    <div class=" ">Features</div>
-                    <div class=" ">Pricing</div>
-                    <div class=" ">News</div>
-                    <div class=" ">Help desk</div>
-                    <div class=" ">Support</div>
+                    <div class=" py-5 s-fade ">Product</div>
+                    <div class="s-faded">Features</div>
+                    <div class="s-faded">Pricing</div>
+                    <div class="s-faded">News</div>
+                    <div class="s-faded">Help desk</div>
+                    <div class="s-faded">Support</div>
                 </div>
             </div>
-            <div class="col-md text-left">
+            <div class="col text-left">
                 <div>
-                    <div class="py-5">Services</div>
-                    <div class=" ">Digital Marketing</div>
-                    <div class=" ">Content Writing</div>
-                    <div class=" ">SEO for Business</div>
-                    <div class=" ">UI design</div>
+                    <div class="py-5 s-fade">Services</div>
+                    <div class=" s-faded">Digital Marketing</div>
+                    <div class=" s-faded">Content Writing</div>
+                    <div class=" s-faded">SEO for Business</div>
+                    <div class=" s-faded">UI design</div>
                 </div>
             </div>
-            <div class="col-md text-left">
+            <div class="col text-left">
                 <div>
-                    <div class="py-5">Legal</div>
-                    <div class=" ">Privacy Policy</div>
-                    <div class=" ">Terms & Condition</div>
-                    <div class=" ">Return Policy</div>
+                    <div class="py-5 s-fade">Legal</div>
+                    <div class=" s-faded">Privacy Policy</div>
+                    <div class=" s-faded">Terms & Condition</div>
+                    <div class=" s-faded">Return Policy</div>
                 </div>
             </div>
-            <div class="col-md text-left">
+            <div class="col text-left">
                 <div>
-                    <div class="py-5">Contact us</div>
-                    <div class=" "><a href="">support@brainwave.io</a></div>
-                    <div class=" ">+133-394-3439-1435</div>
+                    <div class="py-5 s-fade">Contact us</div>
+                    <div class=" s-btn">support@brainwave.io</div>
+                    <div class="s-btn ">+133-394-3439-1435</div>
                     
                 </div>
             </div>
@@ -736,6 +777,21 @@
         </div>
     </div>
 </section>
+
+<footer class="">
+    <div class="container  foot-border">
+        <div class="foot-flex">
+            <div class="foot-p">© 2024 Copyright, All Right Reserved, Made by Seju_ui_ux with<i class='bx bxs-heart' style='color:#04f904'  ></i></div>
+            <div>
+                <span><i class='bx bxl-twitter' style='color:#737171'  ></i></span>
+                <span><i class='bx bxl-facebook-square' style='color:#0404f9'  ></i></span>
+                <span><i class='bx bxl-instagram' style='color:#858383'  ></i></span>
+                <span><i class='bx bxl-linkedin-square' style='color:#858383' ></i></span>
+            </div>
+            
+        </div>
+    </div>
+</footer>
 
     
     
